@@ -1,8 +1,19 @@
+:root {
+    --header-purple: #ab20fd;
+    --header-shadow: #bf53fd;
+    --tunester-blue: rgb(2, 95, 157);
+    --tunester-cyan: rgb(2,133,150);
+    --tunester-orange: rgb(230, 116, 35);
+    --tunester-purple: rgb(180, 79, 132);
+    --tunester-red: rgb(233, 56, 62);
+    --tunester-yellow: rgb(227, 177, 94);
+}
+
 #site-header {
   font-family: lobster;
-  color: 	#ab20fd;
+  color: var(--header-purple);
   letter-spacing: .15rem;
-  text-shadow: 0 0 .2rem #bf53fd;
+  text-shadow: 0 0 .2rem var(--header-shadow);
 }
 
 .tunester-card {
@@ -12,10 +23,24 @@
 }
 
 .tunester-play-button {
+    padding: .25rem;
     font-size: 3rem;
     width:6rem;
     height: 6rem;
-    border: .15rem solid #ab20fd;
+    background: linear-gradient(to right, var(--tunester-orange),var(--tunester-red), var(--header-purple));
+    border-radius: 50%;
+}
+
+.tunester-add-button {
+    padding: .125rem;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(to bottom, var(--header-purple),var(--tunester-red), var(--tunester-orange));
+    border-radius: 50%;
+}
+
+.tunester-button-gradient-cover {
     border-radius: 50%;
 }
 
