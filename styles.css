@@ -1,0 +1,45 @@
+#site-header {
+  font-family: lobster;
+  color: 	#ab20fd;
+  letter-spacing: .15rem;
+  text-shadow: 0 0 .2rem #bf53fd;
+}
+
+.tunester-card {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+}
+
+.tunester-play-button {
+    font-size: 3rem;
+    width:6rem;
+    height: 6rem;
+    border: .15rem solid #ab20fd;
+    border-radius: 50%;
+}
+
+.tunester-blue {
+    background-color: rgb(2, 95, 157);
+}
+
+.tunester-cyan {
+    background-color: rgb(2,133,150);
+}
+
+.tunester-orange {
+    background-color: rgb(230, 116, 35);
+}
+
+.tunester-purple {
+    background-color: rgb(180, 79, 132);
+}
+
+.tunester-red {
+    background-color: rgb(233, 56, 62);
+}
+
+.tunester-yellow {
+    background-color: rgb(227, 177, 94);
+}
+
